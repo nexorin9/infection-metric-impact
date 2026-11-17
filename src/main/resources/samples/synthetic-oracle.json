@@ -1,0 +1,1253 @@
+{
+  "seed": 20261109,
+  "oracle": [
+    {
+      "indicator_code": "MER-HR-01",
+      "definition_version": "2026.1",
+      "quarter": "2026Q1",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-HR-01",
+      "definition_version": "2026.1",
+      "quarter": "2026Q2",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-HR-01",
+      "definition_version": "2026.1",
+      "quarter": "2026Q3",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-HR-01",
+      "definition_version": "2026.1",
+      "quarter": "2026Q4",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-HR-02",
+      "definition_version": "2026.1",
+      "quarter": "2026Q1",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-HR-02",
+      "definition_version": "2026.1",
+      "quarter": "2026Q2",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-HR-02",
+      "definition_version": "2026.1",
+      "quarter": "2026Q3",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-HR-02",
+      "definition_version": "2026.1",
+      "quarter": "2026Q4",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-HR-03",
+      "definition_version": "2026.1",
+      "quarter": "2026Q1",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-HR-03",
+      "definition_version": "2026.1",
+      "quarter": "2026Q2",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-HR-03",
+      "definition_version": "2026.1",
+      "quarter": "2026Q3",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-HR-03",
+      "definition_version": "2026.1",
+      "quarter": "2026Q4",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-TL-01",
+      "definition_version": "2026.1",
+      "quarter": "2026Q1",
+      "expected_numerator": 240,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-TL-01",
+      "definition_version": "2026.1",
+      "quarter": "2026Q2",
+      "expected_numerator": 240,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-TL-01",
+      "definition_version": "2026.1",
+      "quarter": "2026Q3",
+      "expected_numerator": 240,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-TL-01",
+      "definition_version": "2026.1",
+      "quarter": "2026Q4",
+      "expected_numerator": 240,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-TL-02",
+      "definition_version": "2026.1",
+      "quarter": "2026Q1",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-TL-02",
+      "definition_version": "2026.1",
+      "quarter": "2026Q2",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-TL-02",
+      "definition_version": "2026.1",
+      "quarter": "2026Q3",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-TL-02",
+      "definition_version": "2026.1",
+      "quarter": "2026Q4",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-TL-03",
+      "definition_version": "2026.1",
+      "quarter": "2026Q1",
+      "expected_numerator": 225,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-TL-03",
+      "definition_version": "2026.1",
+      "quarter": "2026Q2",
+      "expected_numerator": 225,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-TL-03",
+      "definition_version": "2026.1",
+      "quarter": "2026Q3",
+      "expected_numerator": 225,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-TL-03",
+      "definition_version": "2026.1",
+      "quarter": "2026Q4",
+      "expected_numerator": 225,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-TL-04",
+      "definition_version": "2026.1",
+      "quarter": "2026Q1",
+      "expected_numerator": 250,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-TL-04",
+      "definition_version": "2026.1",
+      "quarter": "2026Q2",
+      "expected_numerator": 250,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-TL-04",
+      "definition_version": "2026.1",
+      "quarter": "2026Q3",
+      "expected_numerator": 250,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-TL-04",
+      "definition_version": "2026.1",
+      "quarter": "2026Q4",
+      "expected_numerator": 250,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-ME-01",
+      "definition_version": "2026.1",
+      "quarter": "2026Q1",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-ME-01",
+      "definition_version": "2026.1",
+      "quarter": "2026Q2",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-ME-01",
+      "definition_version": "2026.1",
+      "quarter": "2026Q3",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-ME-01",
+      "definition_version": "2026.1",
+      "quarter": "2026Q4",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-ME-02",
+      "definition_version": "2026.1",
+      "quarter": "2026Q1",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-ME-02",
+      "definition_version": "2026.1",
+      "quarter": "2026Q2",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-ME-02",
+      "definition_version": "2026.1",
+      "quarter": "2026Q3",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-ME-02",
+      "definition_version": "2026.1",
+      "quarter": "2026Q4",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-ME-03",
+      "definition_version": "2026.1",
+      "quarter": "2026Q1",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-ME-03",
+      "definition_version": "2026.1",
+      "quarter": "2026Q2",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-ME-03",
+      "definition_version": "2026.1",
+      "quarter": "2026Q3",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-ME-03",
+      "definition_version": "2026.1",
+      "quarter": "2026Q4",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-D&T-01",
+      "definition_version": "2026.1",
+      "quarter": "2026Q1",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-D&T-01",
+      "definition_version": "2026.1",
+      "quarter": "2026Q2",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-D&T-01",
+      "definition_version": "2026.1",
+      "quarter": "2026Q3",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-D&T-01",
+      "definition_version": "2026.1",
+      "quarter": "2026Q4",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-D&T-02",
+      "definition_version": "2026.1",
+      "quarter": "2026Q1",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-D&T-02",
+      "definition_version": "2026.1",
+      "quarter": "2026Q2",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-D&T-02",
+      "definition_version": "2026.1",
+      "quarter": "2026Q3",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-D&T-02",
+      "definition_version": "2026.1",
+      "quarter": "2026Q4",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-D&T-03",
+      "definition_version": "2026.1",
+      "quarter": "2026Q1",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-D&T-03",
+      "definition_version": "2026.1",
+      "quarter": "2026Q2",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-D&T-03",
+      "definition_version": "2026.1",
+      "quarter": "2026Q3",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-D&T-03",
+      "definition_version": "2026.1",
+      "quarter": "2026Q4",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-D&T-04",
+      "definition_version": "2026.1",
+      "quarter": "2026Q1",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-D&T-04",
+      "definition_version": "2026.1",
+      "quarter": "2026Q2",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-D&T-04",
+      "definition_version": "2026.1",
+      "quarter": "2026Q3",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-D&T-04",
+      "definition_version": "2026.1",
+      "quarter": "2026Q4",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-D&T-05",
+      "definition_version": "2026.1",
+      "quarter": "2026Q1",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-D&T-05",
+      "definition_version": "2026.1",
+      "quarter": "2026Q2",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-D&T-05",
+      "definition_version": "2026.1",
+      "quarter": "2026Q3",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-D&T-05",
+      "definition_version": "2026.1",
+      "quarter": "2026Q4",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-D&T-06",
+      "definition_version": "2026.1",
+      "quarter": "2026Q1",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-D&T-06",
+      "definition_version": "2026.1",
+      "quarter": "2026Q2",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-D&T-06",
+      "definition_version": "2026.1",
+      "quarter": "2026Q3",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-D&T-06",
+      "definition_version": "2026.1",
+      "quarter": "2026Q4",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-D&T-07",
+      "definition_version": "2026.1",
+      "quarter": "2026Q1",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-D&T-07",
+      "definition_version": "2026.1",
+      "quarter": "2026Q2",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-D&T-07",
+      "definition_version": "2026.1",
+      "quarter": "2026Q3",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-D&T-07",
+      "definition_version": "2026.1",
+      "quarter": "2026Q4",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-D&T-08",
+      "definition_version": "2026.1",
+      "quarter": "2026Q1",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-D&T-08",
+      "definition_version": "2026.1",
+      "quarter": "2026Q2",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-D&T-08",
+      "definition_version": "2026.1",
+      "quarter": "2026Q3",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-D&T-08",
+      "definition_version": "2026.1",
+      "quarter": "2026Q4",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-TQ-01",
+      "definition_version": "2026.1",
+      "quarter": "2026Q1",
+      "expected_numerator": 240,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-TQ-01",
+      "definition_version": "2026.1",
+      "quarter": "2026Q2",
+      "expected_numerator": 240,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-TQ-01",
+      "definition_version": "2026.1",
+      "quarter": "2026Q3",
+      "expected_numerator": 240,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-TQ-01",
+      "definition_version": "2026.1",
+      "quarter": "2026Q4",
+      "expected_numerator": 240,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-TQ-02",
+      "definition_version": "2026.1",
+      "quarter": "2026Q1",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-TQ-02",
+      "definition_version": "2026.1",
+      "quarter": "2026Q2",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-TQ-02",
+      "definition_version": "2026.1",
+      "quarter": "2026Q3",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-TQ-02",
+      "definition_version": "2026.1",
+      "quarter": "2026Q4",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-TQ-03",
+      "definition_version": "2026.1",
+      "quarter": "2026Q1",
+      "expected_numerator": 257,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-TQ-03",
+      "definition_version": "2026.1",
+      "quarter": "2026Q2",
+      "expected_numerator": 258,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-TQ-03",
+      "definition_version": "2026.1",
+      "quarter": "2026Q3",
+      "expected_numerator": 257,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-TQ-03",
+      "definition_version": "2026.1",
+      "quarter": "2026Q4",
+      "expected_numerator": 257,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-TQ-04",
+      "definition_version": "2026.1",
+      "quarter": "2026Q1",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-TQ-04",
+      "definition_version": "2026.1",
+      "quarter": "2026Q2",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-TQ-04",
+      "definition_version": "2026.1",
+      "quarter": "2026Q3",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-TQ-04",
+      "definition_version": "2026.1",
+      "quarter": "2026Q4",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-TQ-05",
+      "definition_version": "2026.1",
+      "quarter": "2026Q1",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-TQ-05",
+      "definition_version": "2026.1",
+      "quarter": "2026Q2",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-TQ-05",
+      "definition_version": "2026.1",
+      "quarter": "2026Q3",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-TQ-05",
+      "definition_version": "2026.1",
+      "quarter": "2026Q4",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-TQ-06",
+      "definition_version": "2026.1",
+      "quarter": "2026Q1",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-TQ-06",
+      "definition_version": "2026.1",
+      "quarter": "2026Q2",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-TQ-06",
+      "definition_version": "2026.1",
+      "quarter": "2026Q3",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-TQ-06",
+      "definition_version": "2026.1",
+      "quarter": "2026Q4",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-TQ-07",
+      "definition_version": "2026.1",
+      "quarter": "2026Q1",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-TQ-07",
+      "definition_version": "2026.1",
+      "quarter": "2026Q2",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-TQ-07",
+      "definition_version": "2026.1",
+      "quarter": "2026Q3",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-TQ-07",
+      "definition_version": "2026.1",
+      "quarter": "2026Q4",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-TQ-08",
+      "definition_version": "2026.1",
+      "quarter": "2026Q1",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-TQ-08",
+      "definition_version": "2026.1",
+      "quarter": "2026Q2",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-TQ-08",
+      "definition_version": "2026.1",
+      "quarter": "2026Q3",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-TQ-08",
+      "definition_version": "2026.1",
+      "quarter": "2026Q4",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-TQ-09",
+      "definition_version": "2026.1",
+      "quarter": "2026Q1",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-TQ-09",
+      "definition_version": "2026.1",
+      "quarter": "2026Q2",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-TQ-09",
+      "definition_version": "2026.1",
+      "quarter": "2026Q3",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "MER-TQ-09",
+      "definition_version": "2026.1",
+      "quarter": "2026Q4",
+      "expected_numerator": 200,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "HAI-INC-01",
+      "definition_version": "2026.1",
+      "quarter": "2026Q1",
+      "expected_numerator": 12,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "HAI-INC-01",
+      "definition_version": "2026.1",
+      "quarter": "2026Q2",
+      "expected_numerator": 12,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "HAI-INC-01",
+      "definition_version": "2026.1",
+      "quarter": "2026Q3",
+      "expected_numerator": 12,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "HAI-INC-01",
+      "definition_version": "2026.1",
+      "quarter": "2026Q4",
+      "expected_numerator": 12,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "HAI-INC-02",
+      "definition_version": "2026.1",
+      "quarter": "2026Q1",
+      "expected_numerator": 12,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "HAI-INC-02",
+      "definition_version": "2026.1",
+      "quarter": "2026Q2",
+      "expected_numerator": 12,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "HAI-INC-02",
+      "definition_version": "2026.1",
+      "quarter": "2026Q3",
+      "expected_numerator": 12,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "HAI-INC-02",
+      "definition_version": "2026.1",
+      "quarter": "2026Q4",
+      "expected_numerator": 12,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "HAI-INC-03",
+      "definition_version": "2026.1",
+      "quarter": "2026Q1",
+      "expected_numerator": 12,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "HAI-INC-03",
+      "definition_version": "2026.1",
+      "quarter": "2026Q2",
+      "expected_numerator": 12,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "HAI-INC-03",
+      "definition_version": "2026.1",
+      "quarter": "2026Q3",
+      "expected_numerator": 12,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "HAI-INC-03",
+      "definition_version": "2026.1",
+      "quarter": "2026Q4",
+      "expected_numerator": 12,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "HAI-INC-04",
+      "definition_version": "2026.1",
+      "quarter": "2026Q1",
+      "expected_numerator": 12,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "HAI-INC-04",
+      "definition_version": "2026.1",
+      "quarter": "2026Q2",
+      "expected_numerator": 12,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "HAI-INC-04",
+      "definition_version": "2026.1",
+      "quarter": "2026Q3",
+      "expected_numerator": 12,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "HAI-INC-04",
+      "definition_version": "2026.1",
+      "quarter": "2026Q4",
+      "expected_numerator": 12,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "HAI-INC-05",
+      "definition_version": "2026.1",
+      "quarter": "2026Q1",
+      "expected_numerator": 12,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "HAI-INC-05",
+      "definition_version": "2026.1",
+      "quarter": "2026Q2",
+      "expected_numerator": 12,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "HAI-INC-05",
+      "definition_version": "2026.1",
+      "quarter": "2026Q3",
+      "expected_numerator": 12,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "HAI-INC-05",
+      "definition_version": "2026.1",
+      "quarter": "2026Q4",
+      "expected_numerator": 12,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "HAI-MDR-01",
+      "definition_version": "2026.1",
+      "quarter": "2026Q1",
+      "expected_numerator": 12,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "HAI-MDR-01",
+      "definition_version": "2026.1",
+      "quarter": "2026Q2",
+      "expected_numerator": 12,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "HAI-MDR-01",
+      "definition_version": "2026.1",
+      "quarter": "2026Q3",
+      "expected_numerator": 12,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "HAI-MDR-01",
+      "definition_version": "2026.1",
+      "quarter": "2026Q4",
+      "expected_numerator": 12,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "HAI-MDR-02",
+      "definition_version": "2026.1",
+      "quarter": "2026Q1",
+      "expected_numerator": 12,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "HAI-MDR-02",
+      "definition_version": "2026.1",
+      "quarter": "2026Q2",
+      "expected_numerator": 12,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "HAI-MDR-02",
+      "definition_version": "2026.1",
+      "quarter": "2026Q3",
+      "expected_numerator": 12,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "HAI-MDR-02",
+      "definition_version": "2026.1",
+      "quarter": "2026Q4",
+      "expected_numerator": 12,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "HAI-SSI-01",
+      "definition_version": "2026.1",
+      "quarter": "2026Q1",
+      "expected_numerator": 12,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "HAI-SSI-01",
+      "definition_version": "2026.1",
+      "quarter": "2026Q2",
+      "expected_numerator": 12,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "HAI-SSI-01",
+      "definition_version": "2026.1",
+      "quarter": "2026Q3",
+      "expected_numerator": 12,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "HAI-SSI-01",
+      "definition_version": "2026.1",
+      "quarter": "2026Q4",
+      "expected_numerator": 12,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "HAI-SSI-02",
+      "definition_version": "2026.1",
+      "quarter": "2026Q1",
+      "expected_numerator": 12,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "HAI-SSI-02",
+      "definition_version": "2026.1",
+      "quarter": "2026Q2",
+      "expected_numerator": 12,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "HAI-SSI-02",
+      "definition_version": "2026.1",
+      "quarter": "2026Q3",
+      "expected_numerator": 12,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "HAI-SSI-02",
+      "definition_version": "2026.1",
+      "quarter": "2026Q4",
+      "expected_numerator": 12,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "HAI-ABX-01",
+      "definition_version": "2026.1",
+      "quarter": "2026Q1",
+      "expected_numerator": 12,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "HAI-ABX-01",
+      "definition_version": "2026.1",
+      "quarter": "2026Q2",
+      "expected_numerator": 12,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "HAI-ABX-01",
+      "definition_version": "2026.1",
+      "quarter": "2026Q3",
+      "expected_numerator": 12,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "HAI-ABX-01",
+      "definition_version": "2026.1",
+      "quarter": "2026Q4",
+      "expected_numerator": 12,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "HAI-ABX-02",
+      "definition_version": "2026.1",
+      "quarter": "2026Q1",
+      "expected_numerator": 12,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "HAI-ABX-02",
+      "definition_version": "2026.1",
+      "quarter": "2026Q2",
+      "expected_numerator": 12,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "HAI-ABX-02",
+      "definition_version": "2026.1",
+      "quarter": "2026Q3",
+      "expected_numerator": 12,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "HAI-ABX-02",
+      "definition_version": "2026.1",
+      "quarter": "2026Q4",
+      "expected_numerator": 12,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "HAI-SUR-01",
+      "definition_version": "2026.1",
+      "quarter": "2026Q1",
+      "expected_numerator": 12,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "HAI-SUR-01",
+      "definition_version": "2026.1",
+      "quarter": "2026Q2",
+      "expected_numerator": 12,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "HAI-SUR-01",
+      "definition_version": "2026.1",
+      "quarter": "2026Q3",
+      "expected_numerator": 12,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    },
+    {
+      "indicator_code": "HAI-SUR-01",
+      "definition_version": "2026.1",
+      "quarter": "2026Q4",
+      "expected_numerator": 12,
+      "expected_denominator": 300,
+      "oracle_rule": "规则化计数（与复算求值器独立实现）"
+    }
+  ]
+}

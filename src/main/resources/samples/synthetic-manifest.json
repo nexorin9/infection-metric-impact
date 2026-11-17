@@ -1,0 +1,49 @@
+{
+  "provenance": "synthetic-rule-based",
+  "generator": "tools/datagen/generate.py",
+  "seed": 20261109,
+  "quarters": [
+    "2026Q1",
+    "2026Q2",
+    "2026Q3",
+    "2026Q4"
+  ],
+  "encounter_rows": 1200,
+  "infection_rows": 180,
+  "indicator_count": 39,
+  "official_count": 27,
+  "draft_count": 12,
+  "oracle_rows": 156,
+  "privacy": "全部脱敏，仅聚合值与口径元数据，不含患者可识别明细",
+  "columns": {
+    "synthetic-encounters.csv": [
+      "encounter_id",
+      "discharge_date",
+      "dept_code",
+      "primary_diag_code",
+      "procedure_code",
+      "wound_class",
+      "had_surgery",
+      "quarter",
+      "admission_record_ontime",
+      "discharge_record_ontime",
+      "first_page_ontime",
+      "primary_diag_correct",
+      "grade_a_record",
+      "archived_2d"
+    ],
+    "synthetic-infection-reports.csv": [
+      "report_id",
+      "encounter_id",
+      "quarter",
+      "dept_code",
+      "infection_site",
+      "pathogen",
+      "mdr_flag",
+      "related_surgery_date",
+      "onset_date",
+      "wound_class",
+      "culture_before_abx"
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "cases": [
+    {
+      "case_id": "hai-draft-001",
+      "input": {
+        "indicator_code": "HAI-INC-01",
+        "quarter": "2026Q1",
+        "mdr_flag": "true"
+      },
+      "expect": {
+        "rule": "分子口径含 mdr_flag=true 时才计入",
+        "scope": "脱敏样例"
+      },
+      "basis": "本院院感口径草稿（脱敏），非官方口径",
+      "confidence": "draft"
+    },
+    {
+      "case_id": "hai-draft-002",
+      "input": {
+        "indicator_code": "HAI-SSI-02",
+        "wound_class": "III",
+        "quarter": "2026Q2"
+      },
+      "expect": {
+        "rule": "切口等级 Ⅲ 的手术部位感染单独统计",
+        "scope": "脱敏样例"
+      },
+      "basis": "本院院感口径草稿（脱敏），非官方口径",
+      "confidence": "draft"
+    },
+    {
+      "case_id": "hai-draft-003",
+      "input": {
+        "indicator_code": "HAI-MDR-01",
+        "pathogen": "鲍曼不动杆菌"
+      },
+      "expect": {
+        "rule": "多重耐药菌标志由院感明细 mdr_flag 字段判定",
+        "scope": "脱敏样例"
+      },
+      "basis": "本院院感口径草稿（脱敏），非官方口径",
+      "confidence": "draft"
+    },
+    {
+      "case_id": "hai-draft-004",
+      "input": {
+        "indicator_code": "HAI-INC-02",
+        "discharge_date": "2026-03-15"
+      },
+      "expect": {
+        "rule": "出院记录侧日期字段仅用于期间归属，不落患者明细",
+        "scope": "脱敏样例"
+      },
+      "basis": "本院院感口径草稿（脱敏），非官方口径",
+      "confidence": "draft"
+    }
+  ],
+  "confidence": "draft",
+  "note": "院感侧草稿案例，脱敏口径与脱敏记录，不冒充官方口径"
+}

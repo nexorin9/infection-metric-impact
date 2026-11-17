@@ -1,0 +1,148 @@
+{
+  "sample_id": "offline-sample-001",
+  "provenance": "bundled-minimal",
+  "confidence": "draft",
+  "note": "脱敏最小样例，仅用于 --offline-sample 离线演示通道；非默认启动路径，不含患者可识别明细，不代表任何医院真实口径。",
+  "indicators": [
+    {
+      "indicator_code": "HAI-INC-01",
+      "definition_version": "2026.1",
+      "title": "院感报告例数（演示口径）",
+      "status": "PUBLISHED",
+      "effective_from": "2026-01-01",
+      "author": "院感科质控专员",
+      "approver": "院感科主任",
+      "approved_at": "2026-01-05T09:30:00",
+      "numerator": {
+        "op": "AND",
+        "children": [
+          {"field": "dept_code", "cmp": "in", "value": ["0301", "0302"]},
+          {"field": "infection_site", "cmp": "ne", "value": "其他部位"}
+        ]
+      },
+      "denominator": {
+        "op": "AND",
+        "children": [
+          {"field": "discharge_date", "cmp": "between", "value": ["2026-01-01", "2026-03-31"]}
+        ]
+      },
+      "exclusions": [],
+      "scope": {"deptCodes": ["0301", "0302"], "periods": ["2026-Q1"]},
+      "data_sources": [
+        {"source": "hai", "entity": "infection_report", "field": "infection_site"},
+        {"source": "hai", "entity": "infection_report", "field": "dept_code"},
+        {"source": "emr", "entity": "encounter", "field": "discharge_date"}
+      ]
+    },
+    {
+      "indicator_code": "HAI-INC-01",
+      "definition_version": "2026.2",
+      "title": "院感报告例数（演示口径 · 分子收窄版）",
+      "status": "DRAFT",
+      "effective_from": "2026-04-01",
+      "author": "院感科质控专员",
+      "numerator": {
+        "op": "AND",
+        "children": [
+          {"field": "dept_code", "cmp": "in", "value": ["0301"]},
+          {"field": "infection_site", "cmp": "ne", "value": "其他部位"},
+          {"field": "incision_level", "cmp": "ne", "value": "III"}
+        ]
+      },
+      "denominator": {
+        "op": "AND",
+        "children": [
+          {"field": "discharge_date", "cmp": "between", "value": ["2026-04-01", "2026-06-30"]}
+        ]
+      },
+      "exclusions": [],
+      "scope": {"deptCodes": ["0301"], "periods": ["2026-Q2"]},
+      "data_sources": [
+        {"source": "hai", "entity": "infection_report", "field": "infection_site"},
+        {"source": "hai", "entity": "infection_report", "field": "dept_code"},
+        {"source": "emr", "entity": "encounter", "field": "discharge_date"},
+        {"source": "emr", "entity": "encounter", "field": "incision_level"}
+      ]
+    },
+    {
+      "indicator_code": "HAI-MDR-01",
+      "definition_version": "2026.1",
+      "title": "多重耐药菌感染例数（演示口径）",
+      "status": "DRAFT",
+      "effective_from": "2026-01-01",
+      "author": "院感科质控专员",
+      "numerator": {
+        "op": "AND",
+        "children": [
+          {"field": "mdr_flag", "cmp": "eq", "value": true}
+        ]
+      },
+      "denominator": {
+        "op": "AND",
+        "children": [
+          {"field": "discharge_date", "cmp": "between", "value": ["2026-01-01", "2026-03-31"]}
+        ]
+      },
+      "exclusions": [],
+      "scope": {"deptCodes": ["0301", "0302"], "periods": ["2026-Q1"]},
+      "data_sources": [
+        {"source": "hai", "entity": "infection_report", "field": "mdr_flag"},
+        {"source": "emr", "entity": "encounter", "field": "discharge_date"}
+      ]
+    }
+  ],
+  "encounters": [
+    {
+      "encounter_id": "DEMO-E-0001",
+      "discharge_date": "2026-01-08",
+      "dept_code": "0301",
+      "main_diagnosis_code": "DEMO-D-01",
+      "procedure_code": "DEMO-P-01",
+      "incision_level": "I"
+    },
+    {
+      "encounter_id": "DEMO-E-0002",
+      "discharge_date": "2026-02-11",
+      "dept_code": "0302",
+      "main_diagnosis_code": "DEMO-D-02",
+      "procedure_code": "DEMO-P-01",
+      "incision_level": "III"
+    },
+    {
+      "encounter_id": "DEMO-E-0003",
+      "discharge_date": "2026-03-19",
+      "dept_code": "0301",
+      "main_diagnosis_code": "DEMO-D-01",
+      "procedure_code": "DEMO-P-02",
+      "incision_level": "II"
+    },
+    {
+      "encounter_id": "DEMO-E-0004",
+      "discharge_date": "2026-04-22",
+      "dept_code": "0301",
+      "main_diagnosis_code": "DEMO-D-03",
+      "procedure_code": "DEMO-P-01",
+      "incision_level": "I"
+    }
+  ],
+  "infection_reports": [
+    {
+      "report_id": "DEMO-R-0001",
+      "infection_site": "呼吸道",
+      "pathogen": "DEMO-G-01",
+      "related_procedure_date": "2026-01-06",
+      "mdr_flag": false,
+      "dept_code": "0301",
+      "onset_date": "2026-01-05"
+    },
+    {
+      "report_id": "DEMO-R-0002",
+      "infection_site": "手术部位",
+      "pathogen": "DEMO-G-02",
+      "related_procedure_date": "2026-02-09",
+      "mdr_flag": true,
+      "dept_code": "0302",
+      "onset_date": "2026-02-08"
+    }
+  ]
+}

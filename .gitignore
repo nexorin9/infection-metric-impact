@@ -1,0 +1,42 @@
+# ---- 凭据与本地环境 ----
+.env
+.env.local
+*.env.local
+
+# ---- 运行时数据与产物（不入库） ----
+data/
+logs/
+out/
+tmp/
+temp/
+.cache/
+
+# ---- 构建产物 ----
+target/
+dist/
+build/
+coverage/
+.next/
+.nuxt/
+node_modules/
+*.class
+*.jar
+!.mvn/wrapper/maven-wrapper.jar
+
+# ---- Python 缓存（本项目以 Java 为主，兼容混合工具目录） ----
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.pyc
+*.pyo
+
+# ---- 临时文件与日志 ----
+*.log
+*.tmp
+*.temp
+*.swp
+.DS_Store
+
+# ---- round 元数据（不属于发布产物） ----
+score.json

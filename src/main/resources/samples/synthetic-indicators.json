@@ -1,0 +1,1547 @@
+{
+  "seed": 20261109,
+  "indicators": [
+    {
+      "indicator_code": "MER-HR-01",
+      "definition_version": "2026.1",
+      "title": "住院病案管理人员月均负担出院患者病历数",
+      "numerator": {
+        "op": "AND",
+        "children": [
+          {
+            "field": "quarter",
+            "cmp": "eq",
+            "value": "@quarter"
+          }
+        ]
+      },
+      "denominator": {
+        "field": "quarter",
+        "cmp": "eq",
+        "value": "@quarter"
+      },
+      "denominator_key": "",
+      "exclusions": [],
+      "scope": {
+        "deptCodes": [
+          "0301",
+          "0302",
+          "0303",
+          "0304"
+        ],
+        "periods": [
+          "2026Q1",
+          "2026Q2",
+          "2026Q3",
+          "2026Q4"
+        ]
+      },
+      "confidence": "official",
+      "basis": "《病案管理质量控制指标（2021年版）》MER-HR-01"
+    },
+    {
+      "indicator_code": "MER-HR-02",
+      "definition_version": "2026.1",
+      "title": "门诊病案管理人员月均负担门诊患者病历数",
+      "numerator": {
+        "op": "AND",
+        "children": [
+          {
+            "field": "quarter",
+            "cmp": "eq",
+            "value": "@quarter"
+          }
+        ]
+      },
+      "denominator": {
+        "field": "quarter",
+        "cmp": "eq",
+        "value": "@quarter"
+      },
+      "denominator_key": "",
+      "exclusions": [],
+      "scope": {
+        "deptCodes": [
+          "0301",
+          "0302",
+          "0303",
+          "0304"
+        ],
+        "periods": [
+          "2026Q1",
+          "2026Q2",
+          "2026Q3",
+          "2026Q4"
+        ]
+      },
+      "confidence": "official",
+      "basis": "《病案管理质量控制指标（2021年版）》MER-HR-02"
+    },
+    {
+      "indicator_code": "MER-HR-03",
+      "definition_version": "2026.1",
+      "title": "病案编码人员月均负担出院患者病历数",
+      "numerator": {
+        "op": "AND",
+        "children": [
+          {
+            "field": "quarter",
+            "cmp": "eq",
+            "value": "@quarter"
+          }
+        ]
+      },
+      "denominator": {
+        "field": "quarter",
+        "cmp": "eq",
+        "value": "@quarter"
+      },
+      "denominator_key": "",
+      "exclusions": [],
+      "scope": {
+        "deptCodes": [
+          "0301",
+          "0302",
+          "0303",
+          "0304"
+        ],
+        "periods": [
+          "2026Q1",
+          "2026Q2",
+          "2026Q3",
+          "2026Q4"
+        ]
+      },
+      "confidence": "official",
+      "basis": "《病案管理质量控制指标（2021年版）》MER-HR-03"
+    },
+    {
+      "indicator_code": "MER-TL-01",
+      "definition_version": "2026.1",
+      "title": "入院记录24小时内完成率",
+      "numerator": {
+        "op": "AND",
+        "children": [
+          {
+            "field": "quarter",
+            "cmp": "eq",
+            "value": "@quarter"
+          }
+        ]
+      },
+      "denominator": {
+        "field": "quarter",
+        "cmp": "eq",
+        "value": "@quarter"
+      },
+      "denominator_key": "同期住院患者病历总数",
+      "exclusions": [],
+      "scope": {
+        "deptCodes": [
+          "0301",
+          "0302",
+          "0303",
+          "0304"
+        ],
+        "periods": [
+          "2026Q1",
+          "2026Q2",
+          "2026Q3",
+          "2026Q4"
+        ]
+      },
+      "confidence": "official",
+      "basis": "《病案管理质量控制指标（2021年版）》MER-TL-01"
+    },
+    {
+      "indicator_code": "MER-TL-02",
+      "definition_version": "2026.1",
+      "title": "手术记录24小时内完成率",
+      "numerator": {
+        "op": "AND",
+        "children": [
+          {
+            "field": "quarter",
+            "cmp": "eq",
+            "value": "@quarter"
+          }
+        ]
+      },
+      "denominator": {
+        "field": "quarter",
+        "cmp": "eq",
+        "value": "@quarter"
+      },
+      "denominator_key": "同期住院手术患者病历总数",
+      "exclusions": [],
+      "scope": {
+        "deptCodes": [
+          "0301",
+          "0302",
+          "0303",
+          "0304"
+        ],
+        "periods": [
+          "2026Q1",
+          "2026Q2",
+          "2026Q3",
+          "2026Q4"
+        ]
+      },
+      "confidence": "official",
+      "basis": "《病案管理质量控制指标（2021年版）》MER-TL-02"
+    },
+    {
+      "indicator_code": "MER-TL-03",
+      "definition_version": "2026.1",
+      "title": "出院记录24小时内完成率",
+      "numerator": {
+        "op": "AND",
+        "children": [
+          {
+            "field": "quarter",
+            "cmp": "eq",
+            "value": "@quarter"
+          }
+        ]
+      },
+      "denominator": {
+        "field": "quarter",
+        "cmp": "eq",
+        "value": "@quarter"
+      },
+      "denominator_key": "同期出院患者病历总数",
+      "exclusions": [],
+      "scope": {
+        "deptCodes": [
+          "0301",
+          "0302",
+          "0303",
+          "0304"
+        ],
+        "periods": [
+          "2026Q1",
+          "2026Q2",
+          "2026Q3",
+          "2026Q4"
+        ]
+      },
+      "confidence": "official",
+      "basis": "《病案管理质量控制指标（2021年版）》MER-TL-03"
+    },
+    {
+      "indicator_code": "MER-TL-04",
+      "definition_version": "2026.1",
+      "title": "病案首页24小时内完成率",
+      "numerator": {
+        "op": "AND",
+        "children": [
+          {
+            "field": "quarter",
+            "cmp": "eq",
+            "value": "@quarter"
+          }
+        ]
+      },
+      "denominator": {
+        "field": "quarter",
+        "cmp": "eq",
+        "value": "@quarter"
+      },
+      "denominator_key": "同期出院患者病历总数",
+      "exclusions": [],
+      "scope": {
+        "deptCodes": [
+          "0301",
+          "0302",
+          "0303",
+          "0304"
+        ],
+        "periods": [
+          "2026Q1",
+          "2026Q2",
+          "2026Q3",
+          "2026Q4"
+        ]
+      },
+      "confidence": "official",
+      "basis": "《病案管理质量控制指标（2021年版）》MER-TL-04"
+    },
+    {
+      "indicator_code": "MER-ME-01",
+      "definition_version": "2026.1",
+      "title": "CT/MRI检查记录符合率",
+      "numerator": {
+        "op": "AND",
+        "children": [
+          {
+            "field": "quarter",
+            "cmp": "eq",
+            "value": "@quarter"
+          }
+        ]
+      },
+      "denominator": {
+        "field": "quarter",
+        "cmp": "eq",
+        "value": "@quarter"
+      },
+      "denominator_key": "",
+      "exclusions": [],
+      "scope": {
+        "deptCodes": [
+          "0301",
+          "0302",
+          "0303",
+          "0304"
+        ],
+        "periods": [
+          "2026Q1",
+          "2026Q2",
+          "2026Q3",
+          "2026Q4"
+        ]
+      },
+      "confidence": "official",
+      "basis": "《病案管理质量控制指标（2021年版）》MER-ME-01"
+    },
+    {
+      "indicator_code": "MER-ME-02",
+      "definition_version": "2026.1",
+      "title": "病理检查记录符合率",
+      "numerator": {
+        "op": "AND",
+        "children": [
+          {
+            "field": "quarter",
+            "cmp": "eq",
+            "value": "@quarter"
+          }
+        ]
+      },
+      "denominator": {
+        "field": "quarter",
+        "cmp": "eq",
+        "value": "@quarter"
+      },
+      "denominator_key": "",
+      "exclusions": [],
+      "scope": {
+        "deptCodes": [
+          "0301",
+          "0302",
+          "0303",
+          "0304"
+        ],
+        "periods": [
+          "2026Q1",
+          "2026Q2",
+          "2026Q3",
+          "2026Q4"
+        ]
+      },
+      "confidence": "official",
+      "basis": "《病案管理质量控制指标（2021年版）》MER-ME-02"
+    },
+    {
+      "indicator_code": "MER-ME-03",
+      "definition_version": "2026.1",
+      "title": "细菌培养检查记录符合率",
+      "numerator": {
+        "op": "AND",
+        "children": [
+          {
+            "field": "quarter",
+            "cmp": "eq",
+            "value": "@quarter"
+          }
+        ]
+      },
+      "denominator": {
+        "field": "quarter",
+        "cmp": "eq",
+        "value": "@quarter"
+      },
+      "denominator_key": "",
+      "exclusions": [],
+      "scope": {
+        "deptCodes": [
+          "0301",
+          "0302",
+          "0303",
+          "0304"
+        ],
+        "periods": [
+          "2026Q1",
+          "2026Q2",
+          "2026Q3",
+          "2026Q4"
+        ]
+      },
+      "confidence": "official",
+      "basis": "《病案管理质量控制指标（2021年版）》MER-ME-03"
+    },
+    {
+      "indicator_code": "MER-D&T-01",
+      "definition_version": "2026.1",
+      "title": "抗菌药物使用记录符合率",
+      "numerator": {
+        "op": "AND",
+        "children": [
+          {
+            "field": "quarter",
+            "cmp": "eq",
+            "value": "@quarter"
+          }
+        ]
+      },
+      "denominator": {
+        "field": "quarter",
+        "cmp": "eq",
+        "value": "@quarter"
+      },
+      "denominator_key": "",
+      "exclusions": [],
+      "scope": {
+        "deptCodes": [
+          "0301",
+          "0302",
+          "0303",
+          "0304"
+        ],
+        "periods": [
+          "2026Q1",
+          "2026Q2",
+          "2026Q3",
+          "2026Q4"
+        ]
+      },
+      "confidence": "official",
+      "basis": "《病案管理质量控制指标（2021年版）》MER-D&T-01"
+    },
+    {
+      "indicator_code": "MER-D&T-02",
+      "definition_version": "2026.1",
+      "title": "恶性肿瘤化学治疗记录符合率",
+      "numerator": {
+        "op": "AND",
+        "children": [
+          {
+            "field": "quarter",
+            "cmp": "eq",
+            "value": "@quarter"
+          }
+        ]
+      },
+      "denominator": {
+        "field": "quarter",
+        "cmp": "eq",
+        "value": "@quarter"
+      },
+      "denominator_key": "",
+      "exclusions": [],
+      "scope": {
+        "deptCodes": [
+          "0301",
+          "0302",
+          "0303",
+          "0304"
+        ],
+        "periods": [
+          "2026Q1",
+          "2026Q2",
+          "2026Q3",
+          "2026Q4"
+        ]
+      },
+      "confidence": "official",
+      "basis": "《病案管理质量控制指标（2021年版）》MER-D&T-02"
+    },
+    {
+      "indicator_code": "MER-D&T-03",
+      "definition_version": "2026.1",
+      "title": "恶性肿瘤放射治疗记录符合率",
+      "numerator": {
+        "op": "AND",
+        "children": [
+          {
+            "field": "quarter",
+            "cmp": "eq",
+            "value": "@quarter"
+          }
+        ]
+      },
+      "denominator": {
+        "field": "quarter",
+        "cmp": "eq",
+        "value": "@quarter"
+      },
+      "denominator_key": "",
+      "exclusions": [],
+      "scope": {
+        "deptCodes": [
+          "0301",
+          "0302",
+          "0303",
+          "0304"
+        ],
+        "periods": [
+          "2026Q1",
+          "2026Q2",
+          "2026Q3",
+          "2026Q4"
+        ]
+      },
+      "confidence": "official",
+      "basis": "《病案管理质量控制指标（2021年版）》MER-D&T-03"
+    },
+    {
+      "indicator_code": "MER-D&T-04",
+      "definition_version": "2026.1",
+      "title": "手术相关记录完整率",
+      "numerator": {
+        "op": "AND",
+        "children": [
+          {
+            "field": "quarter",
+            "cmp": "eq",
+            "value": "@quarter"
+          }
+        ]
+      },
+      "denominator": {
+        "field": "quarter",
+        "cmp": "eq",
+        "value": "@quarter"
+      },
+      "denominator_key": "同期住院手术患者病历总数",
+      "exclusions": [],
+      "scope": {
+        "deptCodes": [
+          "0301",
+          "0302",
+          "0303",
+          "0304"
+        ],
+        "periods": [
+          "2026Q1",
+          "2026Q2",
+          "2026Q3",
+          "2026Q4"
+        ]
+      },
+      "confidence": "official",
+      "basis": "《病案管理质量控制指标（2021年版）》MER-D&T-04"
+    },
+    {
+      "indicator_code": "MER-D&T-05",
+      "definition_version": "2026.1",
+      "title": "植入物相关记录符合率",
+      "numerator": {
+        "op": "AND",
+        "children": [
+          {
+            "field": "quarter",
+            "cmp": "eq",
+            "value": "@quarter"
+          }
+        ]
+      },
+      "denominator": {
+        "field": "quarter",
+        "cmp": "eq",
+        "value": "@quarter"
+      },
+      "denominator_key": "",
+      "exclusions": [],
+      "scope": {
+        "deptCodes": [
+          "0301",
+          "0302",
+          "0303",
+          "0304"
+        ],
+        "periods": [
+          "2026Q1",
+          "2026Q2",
+          "2026Q3",
+          "2026Q4"
+        ]
+      },
+      "confidence": "official",
+      "basis": "《病案管理质量控制指标（2021年版）》MER-D&T-05"
+    },
+    {
+      "indicator_code": "MER-D&T-06",
+      "definition_version": "2026.1",
+      "title": "临床用血相关记录符合率",
+      "numerator": {
+        "op": "AND",
+        "children": [
+          {
+            "field": "quarter",
+            "cmp": "eq",
+            "value": "@quarter"
+          }
+        ]
+      },
+      "denominator": {
+        "field": "quarter",
+        "cmp": "eq",
+        "value": "@quarter"
+      },
+      "denominator_key": "",
+      "exclusions": [],
+      "scope": {
+        "deptCodes": [
+          "0301",
+          "0302",
+          "0303",
+          "0304"
+        ],
+        "periods": [
+          "2026Q1",
+          "2026Q2",
+          "2026Q3",
+          "2026Q4"
+        ]
+      },
+      "confidence": "official",
+      "basis": "《病案管理质量控制指标（2021年版）》MER-D&T-06"
+    },
+    {
+      "indicator_code": "MER-D&T-07",
+      "definition_version": "2026.1",
+      "title": "医师查房记录完整率",
+      "numerator": {
+        "op": "AND",
+        "children": [
+          {
+            "field": "quarter",
+            "cmp": "eq",
+            "value": "@quarter"
+          }
+        ]
+      },
+      "denominator": {
+        "field": "quarter",
+        "cmp": "eq",
+        "value": "@quarter"
+      },
+      "denominator_key": "同期住院患者病历总数",
+      "exclusions": [],
+      "scope": {
+        "deptCodes": [
+          "0301",
+          "0302",
+          "0303",
+          "0304"
+        ],
+        "periods": [
+          "2026Q1",
+          "2026Q2",
+          "2026Q3",
+          "2026Q4"
+        ]
+      },
+      "confidence": "official",
+      "basis": "《病案管理质量控制指标（2021年版）》MER-D&T-07"
+    },
+    {
+      "indicator_code": "MER-D&T-08",
+      "definition_version": "2026.1",
+      "title": "患者抢救记录及时完成率",
+      "numerator": {
+        "op": "AND",
+        "children": [
+          {
+            "field": "quarter",
+            "cmp": "eq",
+            "value": "@quarter"
+          }
+        ]
+      },
+      "denominator": {
+        "field": "quarter",
+        "cmp": "eq",
+        "value": "@quarter"
+      },
+      "denominator_key": "",
+      "exclusions": [],
+      "scope": {
+        "deptCodes": [
+          "0301",
+          "0302",
+          "0303",
+          "0304"
+        ],
+        "periods": [
+          "2026Q1",
+          "2026Q2",
+          "2026Q3",
+          "2026Q4"
+        ]
+      },
+      "confidence": "official",
+      "basis": "《病案管理质量控制指标（2021年版）》MER-D&T-08"
+    },
+    {
+      "indicator_code": "MER-TQ-01",
+      "definition_version": "2026.1",
+      "title": "出院患者病历2日归档率",
+      "numerator": {
+        "op": "AND",
+        "children": [
+          {
+            "field": "quarter",
+            "cmp": "eq",
+            "value": "@quarter"
+          }
+        ]
+      },
+      "denominator": {
+        "field": "quarter",
+        "cmp": "eq",
+        "value": "@quarter"
+      },
+      "denominator_key": "同期出院患者病历总数",
+      "exclusions": [],
+      "scope": {
+        "deptCodes": [
+          "0301",
+          "0302",
+          "0303",
+          "0304"
+        ],
+        "periods": [
+          "2026Q1",
+          "2026Q2",
+          "2026Q3",
+          "2026Q4"
+        ]
+      },
+      "confidence": "official",
+      "basis": "《病案管理质量控制指标（2021年版）》MER-TQ-01"
+    },
+    {
+      "indicator_code": "MER-TQ-02",
+      "definition_version": "2026.1",
+      "title": "出院患者病历归档完整率",
+      "numerator": {
+        "op": "AND",
+        "children": [
+          {
+            "field": "quarter",
+            "cmp": "eq",
+            "value": "@quarter"
+          }
+        ]
+      },
+      "denominator": {
+        "field": "quarter",
+        "cmp": "eq",
+        "value": "@quarter"
+      },
+      "denominator_key": "同期出院患者病历总数",
+      "exclusions": [],
+      "scope": {
+        "deptCodes": [
+          "0301",
+          "0302",
+          "0303",
+          "0304"
+        ],
+        "periods": [
+          "2026Q1",
+          "2026Q2",
+          "2026Q3",
+          "2026Q4"
+        ]
+      },
+      "confidence": "official",
+      "basis": "《病案管理质量控制指标（2021年版）》MER-TQ-02"
+    },
+    {
+      "indicator_code": "MER-TQ-03",
+      "definition_version": "2026.1",
+      "title": "主要诊断填写正确率",
+      "numerator": {
+        "op": "AND",
+        "children": [
+          {
+            "field": "quarter",
+            "cmp": "eq",
+            "value": "@quarter"
+          }
+        ]
+      },
+      "denominator": {
+        "field": "quarter",
+        "cmp": "eq",
+        "value": "@quarter"
+      },
+      "denominator_key": "同期出院患者病历总数",
+      "exclusions": [],
+      "scope": {
+        "deptCodes": [
+          "0301",
+          "0302",
+          "0303",
+          "0304"
+        ],
+        "periods": [
+          "2026Q1",
+          "2026Q2",
+          "2026Q3",
+          "2026Q4"
+        ]
+      },
+      "confidence": "official",
+      "basis": "《病案管理质量控制指标（2021年版）》MER-TQ-03"
+    },
+    {
+      "indicator_code": "MER-TQ-04",
+      "definition_version": "2026.1",
+      "title": "主要诊断编码正确率",
+      "numerator": {
+        "op": "AND",
+        "children": [
+          {
+            "field": "quarter",
+            "cmp": "eq",
+            "value": "@quarter"
+          }
+        ]
+      },
+      "denominator": {
+        "field": "quarter",
+        "cmp": "eq",
+        "value": "@quarter"
+      },
+      "denominator_key": "同期出院患者病历总数",
+      "exclusions": [],
+      "scope": {
+        "deptCodes": [
+          "0301",
+          "0302",
+          "0303",
+          "0304"
+        ],
+        "periods": [
+          "2026Q1",
+          "2026Q2",
+          "2026Q3",
+          "2026Q4"
+        ]
+      },
+      "confidence": "official",
+      "basis": "《病案管理质量控制指标（2021年版）》MER-TQ-04"
+    },
+    {
+      "indicator_code": "MER-TQ-05",
+      "definition_version": "2026.1",
+      "title": "主要手术填写正确率",
+      "numerator": {
+        "op": "AND",
+        "children": [
+          {
+            "field": "quarter",
+            "cmp": "eq",
+            "value": "@quarter"
+          }
+        ]
+      },
+      "denominator": {
+        "field": "quarter",
+        "cmp": "eq",
+        "value": "@quarter"
+      },
+      "denominator_key": "同期出院手术患者病历总数",
+      "exclusions": [],
+      "scope": {
+        "deptCodes": [
+          "0301",
+          "0302",
+          "0303",
+          "0304"
+        ],
+        "periods": [
+          "2026Q1",
+          "2026Q2",
+          "2026Q3",
+          "2026Q4"
+        ]
+      },
+      "confidence": "official",
+      "basis": "《病案管理质量控制指标（2021年版）》MER-TQ-05"
+    },
+    {
+      "indicator_code": "MER-TQ-06",
+      "definition_version": "2026.1",
+      "title": "主要手术编码正确率",
+      "numerator": {
+        "op": "AND",
+        "children": [
+          {
+            "field": "quarter",
+            "cmp": "eq",
+            "value": "@quarter"
+          }
+        ]
+      },
+      "denominator": {
+        "field": "quarter",
+        "cmp": "eq",
+        "value": "@quarter"
+      },
+      "denominator_key": "同期出院手术患者病历总数",
+      "exclusions": [],
+      "scope": {
+        "deptCodes": [
+          "0301",
+          "0302",
+          "0303",
+          "0304"
+        ],
+        "periods": [
+          "2026Q1",
+          "2026Q2",
+          "2026Q3",
+          "2026Q4"
+        ]
+      },
+      "confidence": "official",
+      "basis": "《病案管理质量控制指标（2021年版）》MER-TQ-06"
+    },
+    {
+      "indicator_code": "MER-TQ-07",
+      "definition_version": "2026.1",
+      "title": "不合理复制病历发生率",
+      "numerator": {
+        "op": "AND",
+        "children": [
+          {
+            "field": "quarter",
+            "cmp": "eq",
+            "value": "@quarter"
+          }
+        ]
+      },
+      "denominator": {
+        "field": "quarter",
+        "cmp": "eq",
+        "value": "@quarter"
+      },
+      "denominator_key": "同期出院患者病历总数",
+      "exclusions": [],
+      "scope": {
+        "deptCodes": [
+          "0301",
+          "0302",
+          "0303",
+          "0304"
+        ],
+        "periods": [
+          "2026Q1",
+          "2026Q2",
+          "2026Q3",
+          "2026Q4"
+        ]
+      },
+      "confidence": "official",
+      "basis": "《病案管理质量控制指标（2021年版）》MER-TQ-07"
+    },
+    {
+      "indicator_code": "MER-TQ-08",
+      "definition_version": "2026.1",
+      "title": "知情同意书规范签署率",
+      "numerator": {
+        "op": "AND",
+        "children": [
+          {
+            "field": "quarter",
+            "cmp": "eq",
+            "value": "@quarter"
+          }
+        ]
+      },
+      "denominator": {
+        "field": "quarter",
+        "cmp": "eq",
+        "value": "@quarter"
+      },
+      "denominator_key": "",
+      "exclusions": [],
+      "scope": {
+        "deptCodes": [
+          "0301",
+          "0302",
+          "0303",
+          "0304"
+        ],
+        "periods": [
+          "2026Q1",
+          "2026Q2",
+          "2026Q3",
+          "2026Q4"
+        ]
+      },
+      "confidence": "official",
+      "basis": "《病案管理质量控制指标（2021年版）》MER-TQ-08"
+    },
+    {
+      "indicator_code": "MER-TQ-09",
+      "definition_version": "2026.1",
+      "title": "甲级病历率",
+      "numerator": {
+        "op": "AND",
+        "children": [
+          {
+            "field": "quarter",
+            "cmp": "eq",
+            "value": "@quarter"
+          }
+        ]
+      },
+      "denominator": {
+        "field": "quarter",
+        "cmp": "eq",
+        "value": "@quarter"
+      },
+      "denominator_key": "同期出院患者病历总数",
+      "exclusions": [],
+      "scope": {
+        "deptCodes": [
+          "0301",
+          "0302",
+          "0303",
+          "0304"
+        ],
+        "periods": [
+          "2026Q1",
+          "2026Q2",
+          "2026Q3",
+          "2026Q4"
+        ]
+      },
+      "confidence": "official",
+      "basis": "《病案管理质量控制指标（2021年版）》MER-TQ-09"
+    },
+    {
+      "indicator_code": "HAI-INC-01",
+      "definition_version": "2026.1",
+      "title": "住院患者医院感染发病率",
+      "numerator": {
+        "op": "AND",
+        "children": [
+          {
+            "field": "quarter",
+            "cmp": "eq",
+            "value": "@quarter"
+          },
+          {
+            "field": "mdr_flag",
+            "cmp": "eq",
+            "value": "true"
+          }
+        ]
+      },
+      "denominator": {
+        "field": "quarter",
+        "cmp": "eq",
+        "value": "@quarter"
+      },
+      "denominator_key": "同期出院患者病历总数",
+      "exclusions": [],
+      "scope": {
+        "deptCodes": [
+          "0301",
+          "0302",
+          "0303",
+          "0304"
+        ],
+        "periods": [
+          "2026Q1",
+          "2026Q2",
+          "2026Q3",
+          "2026Q4"
+        ]
+      },
+      "confidence": "draft",
+      "basis": "本院院感口径草稿（脱敏，非官方口径）"
+    },
+    {
+      "indicator_code": "HAI-INC-02",
+      "definition_version": "2026.1",
+      "title": "手术部位感染发生率",
+      "numerator": {
+        "op": "AND",
+        "children": [
+          {
+            "field": "quarter",
+            "cmp": "eq",
+            "value": "@quarter"
+          },
+          {
+            "field": "mdr_flag",
+            "cmp": "eq",
+            "value": "true"
+          }
+        ]
+      },
+      "denominator": {
+        "field": "quarter",
+        "cmp": "eq",
+        "value": "@quarter"
+      },
+      "denominator_key": "同期出院患者病历总数",
+      "exclusions": [],
+      "scope": {
+        "deptCodes": [
+          "0301",
+          "0302",
+          "0303",
+          "0304"
+        ],
+        "periods": [
+          "2026Q1",
+          "2026Q2",
+          "2026Q3",
+          "2026Q4"
+        ]
+      },
+      "confidence": "draft",
+      "basis": "本院院感口径草稿（脱敏，非官方口径）"
+    },
+    {
+      "indicator_code": "HAI-INC-03",
+      "definition_version": "2026.1",
+      "title": "ICU 导管相关血流感染发生率",
+      "numerator": {
+        "op": "AND",
+        "children": [
+          {
+            "field": "quarter",
+            "cmp": "eq",
+            "value": "@quarter"
+          },
+          {
+            "field": "mdr_flag",
+            "cmp": "eq",
+            "value": "true"
+          }
+        ]
+      },
+      "denominator": {
+        "field": "quarter",
+        "cmp": "eq",
+        "value": "@quarter"
+      },
+      "denominator_key": "同期出院患者病历总数",
+      "exclusions": [],
+      "scope": {
+        "deptCodes": [
+          "0301",
+          "0302",
+          "0303",
+          "0304"
+        ],
+        "periods": [
+          "2026Q1",
+          "2026Q2",
+          "2026Q3",
+          "2026Q4"
+        ]
+      },
+      "confidence": "draft",
+      "basis": "本院院感口径草稿（脱敏，非官方口径）"
+    },
+    {
+      "indicator_code": "HAI-INC-04",
+      "definition_version": "2026.1",
+      "title": "导尿管相关尿路感染发生率",
+      "numerator": {
+        "op": "AND",
+        "children": [
+          {
+            "field": "quarter",
+            "cmp": "eq",
+            "value": "@quarter"
+          },
+          {
+            "field": "mdr_flag",
+            "cmp": "eq",
+            "value": "true"
+          }
+        ]
+      },
+      "denominator": {
+        "field": "quarter",
+        "cmp": "eq",
+        "value": "@quarter"
+      },
+      "denominator_key": "同期出院患者病历总数",
+      "exclusions": [],
+      "scope": {
+        "deptCodes": [
+          "0301",
+          "0302",
+          "0303",
+          "0304"
+        ],
+        "periods": [
+          "2026Q1",
+          "2026Q2",
+          "2026Q3",
+          "2026Q4"
+        ]
+      },
+      "confidence": "draft",
+      "basis": "本院院感口径草稿（脱敏，非官方口径）"
+    },
+    {
+      "indicator_code": "HAI-INC-05",
+      "definition_version": "2026.1",
+      "title": "呼吸机相关肺炎发生率",
+      "numerator": {
+        "op": "AND",
+        "children": [
+          {
+            "field": "quarter",
+            "cmp": "eq",
+            "value": "@quarter"
+          },
+          {
+            "field": "mdr_flag",
+            "cmp": "eq",
+            "value": "true"
+          }
+        ]
+      },
+      "denominator": {
+        "field": "quarter",
+        "cmp": "eq",
+        "value": "@quarter"
+      },
+      "denominator_key": "同期出院患者病历总数",
+      "exclusions": [],
+      "scope": {
+        "deptCodes": [
+          "0301",
+          "0302",
+          "0303",
+          "0304"
+        ],
+        "periods": [
+          "2026Q1",
+          "2026Q2",
+          "2026Q3",
+          "2026Q4"
+        ]
+      },
+      "confidence": "draft",
+      "basis": "本院院感口径草稿（脱敏，非官方口径）"
+    },
+    {
+      "indicator_code": "HAI-MDR-01",
+      "definition_version": "2026.1",
+      "title": "多重耐药菌检出率",
+      "numerator": {
+        "op": "AND",
+        "children": [
+          {
+            "field": "quarter",
+            "cmp": "eq",
+            "value": "@quarter"
+          },
+          {
+            "field": "mdr_flag",
+            "cmp": "eq",
+            "value": "true"
+          }
+        ]
+      },
+      "denominator": {
+        "field": "quarter",
+        "cmp": "eq",
+        "value": "@quarter"
+      },
+      "denominator_key": "同期出院患者病历总数",
+      "exclusions": [],
+      "scope": {
+        "deptCodes": [
+          "0301",
+          "0302",
+          "0303",
+          "0304"
+        ],
+        "periods": [
+          "2026Q1",
+          "2026Q2",
+          "2026Q3",
+          "2026Q4"
+        ]
+      },
+      "confidence": "draft",
+      "basis": "本院院感口径草稿（脱敏，非官方口径）"
+    },
+    {
+      "indicator_code": "HAI-MDR-02",
+      "definition_version": "2026.1",
+      "title": "多重耐药菌医院感染构成比",
+      "numerator": {
+        "op": "AND",
+        "children": [
+          {
+            "field": "quarter",
+            "cmp": "eq",
+            "value": "@quarter"
+          },
+          {
+            "field": "mdr_flag",
+            "cmp": "eq",
+            "value": "true"
+          }
+        ]
+      },
+      "denominator": {
+        "field": "quarter",
+        "cmp": "eq",
+        "value": "@quarter"
+      },
+      "denominator_key": "同期出院患者病历总数",
+      "exclusions": [],
+      "scope": {
+        "deptCodes": [
+          "0301",
+          "0302",
+          "0303",
+          "0304"
+        ],
+        "periods": [
+          "2026Q1",
+          "2026Q2",
+          "2026Q3",
+          "2026Q4"
+        ]
+      },
+      "confidence": "draft",
+      "basis": "本院院感口径草稿（脱敏，非官方口径）"
+    },
+    {
+      "indicator_code": "HAI-SSI-01",
+      "definition_version": "2026.1",
+      "title": "Ⅰ类切口手术部位感染率",
+      "numerator": {
+        "op": "AND",
+        "children": [
+          {
+            "field": "quarter",
+            "cmp": "eq",
+            "value": "@quarter"
+          },
+          {
+            "field": "mdr_flag",
+            "cmp": "eq",
+            "value": "true"
+          }
+        ]
+      },
+      "denominator": {
+        "field": "quarter",
+        "cmp": "eq",
+        "value": "@quarter"
+      },
+      "denominator_key": "同期出院患者病历总数",
+      "exclusions": [],
+      "scope": {
+        "deptCodes": [
+          "0301",
+          "0302",
+          "0303",
+          "0304"
+        ],
+        "periods": [
+          "2026Q1",
+          "2026Q2",
+          "2026Q3",
+          "2026Q4"
+        ]
+      },
+      "confidence": "draft",
+      "basis": "本院院感口径草稿（脱敏，非官方口径）"
+    },
+    {
+      "indicator_code": "HAI-SSI-02",
+      "definition_version": "2026.1",
+      "title": "Ⅲ类切口手术部位感染率",
+      "numerator": {
+        "op": "AND",
+        "children": [
+          {
+            "field": "quarter",
+            "cmp": "eq",
+            "value": "@quarter"
+          },
+          {
+            "field": "mdr_flag",
+            "cmp": "eq",
+            "value": "true"
+          }
+        ]
+      },
+      "denominator": {
+        "field": "quarter",
+        "cmp": "eq",
+        "value": "@quarter"
+      },
+      "denominator_key": "同期出院患者病历总数",
+      "exclusions": [],
+      "scope": {
+        "deptCodes": [
+          "0301",
+          "0302",
+          "0303",
+          "0304"
+        ],
+        "periods": [
+          "2026Q1",
+          "2026Q2",
+          "2026Q3",
+          "2026Q4"
+        ]
+      },
+      "confidence": "draft",
+      "basis": "本院院感口径草稿（脱敏，非官方口径）"
+    },
+    {
+      "indicator_code": "HAI-ABX-01",
+      "definition_version": "2026.1",
+      "title": "抗菌药物治疗前病原学送检率",
+      "numerator": {
+        "op": "AND",
+        "children": [
+          {
+            "field": "quarter",
+            "cmp": "eq",
+            "value": "@quarter"
+          },
+          {
+            "field": "mdr_flag",
+            "cmp": "eq",
+            "value": "true"
+          }
+        ]
+      },
+      "denominator": {
+        "field": "quarter",
+        "cmp": "eq",
+        "value": "@quarter"
+      },
+      "denominator_key": "同期出院患者病历总数",
+      "exclusions": [],
+      "scope": {
+        "deptCodes": [
+          "0301",
+          "0302",
+          "0303",
+          "0304"
+        ],
+        "periods": [
+          "2026Q1",
+          "2026Q2",
+          "2026Q3",
+          "2026Q4"
+        ]
+      },
+      "confidence": "draft",
+      "basis": "本院院感口径草稿（脱敏，非官方口径）"
+    },
+    {
+      "indicator_code": "HAI-ABX-02",
+      "definition_version": "2026.1",
+      "title": "围手术期抗菌药物预防使用率",
+      "numerator": {
+        "op": "AND",
+        "children": [
+          {
+            "field": "quarter",
+            "cmp": "eq",
+            "value": "@quarter"
+          },
+          {
+            "field": "mdr_flag",
+            "cmp": "eq",
+            "value": "true"
+          }
+        ]
+      },
+      "denominator": {
+        "field": "quarter",
+        "cmp": "eq",
+        "value": "@quarter"
+      },
+      "denominator_key": "同期出院患者病历总数",
+      "exclusions": [],
+      "scope": {
+        "deptCodes": [
+          "0301",
+          "0302",
+          "0303",
+          "0304"
+        ],
+        "periods": [
+          "2026Q1",
+          "2026Q2",
+          "2026Q3",
+          "2026Q4"
+        ]
+      },
+      "confidence": "draft",
+      "basis": "本院院感口径草稿（脱敏，非官方口径）"
+    },
+    {
+      "indicator_code": "HAI-SUR-01",
+      "definition_version": "2026.1",
+      "title": "院感病例漏报率",
+      "numerator": {
+        "op": "AND",
+        "children": [
+          {
+            "field": "quarter",
+            "cmp": "eq",
+            "value": "@quarter"
+          },
+          {
+            "field": "mdr_flag",
+            "cmp": "eq",
+            "value": "true"
+          }
+        ]
+      },
+      "denominator": {
+        "field": "quarter",
+        "cmp": "eq",
+        "value": "@quarter"
+      },
+      "denominator_key": "同期出院患者病历总数",
+      "exclusions": [],
+      "scope": {
+        "deptCodes": [
+          "0301",
+          "0302",
+          "0303",
+          "0304"
+        ],
+        "periods": [
+          "2026Q1",
+          "2026Q2",
+          "2026Q3",
+          "2026Q4"
+        ]
+      },
+      "confidence": "draft",
+      "basis": "本院院感口径草稿（脱敏，非官方口径）"
+    }
+  ]
+}

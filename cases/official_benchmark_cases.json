@@ -1,0 +1,165 @@
+{
+  "cases": [
+    {
+      "case_id": "mrq-mer-hr-01",
+      "input": {
+        "indicator_code": "MER-HR-01",
+        "title": "住院病案管理人员月均负担出院患者病历数"
+      },
+      "expect": {
+        "definition": "单位时间内，每名住院病案管理人员每月平均负担的出院患者病历数。",
+        "numerator_text": "同期住院病案管理人员出院患者病历数",
+        "denominator_text": "实际工作总月数",
+        "missing_formula": true
+      },
+      "basis": "《病案管理质量控制指标（2021年版）》（国卫办医函〔2021〕28号附件） 指标一",
+      "confidence": "official"
+    },
+    {
+      "case_id": "mrq-mer-hr-02",
+      "input": {
+        "indicator_code": "MER-HR-02",
+        "title": "门诊病案管理人员月均负担门诊患者病历数"
+      },
+      "expect": {
+        "definition": "单位时间内，每名门诊病案管理人员每月平均负担的门诊患者病历数。",
+        "numerator_text": "同期门诊病案管理人员门诊患者病历数",
+        "denominator_text": "实际工作总月数",
+        "missing_formula": true
+      },
+      "basis": "《病案管理质量控制指标（2021年版）》（国卫办医函〔2021〕28号附件） 指标二",
+      "confidence": "official"
+    },
+    {
+      "case_id": "mrq-mer-hr-03",
+      "input": {
+        "indicator_code": "MER-HR-03",
+        "title": "病案编码人员月均负担出院患者病历数"
+      },
+      "expect": {
+        "definition": "单位时间内，每名病案编码人员每月平均负担的出院患者病历数。",
+        "numerator_text": "同期病案编码人员出院患者病历数",
+        "denominator_text": "工作总月数",
+        "missing_formula": true
+      },
+      "basis": "《病案管理质量控制指标（2021年版）》（国卫办医函〔2021〕28号附件） 指标三",
+      "confidence": "official"
+    },
+    {
+      "case_id": "mrq-mer-tl-01",
+      "input": {
+        "indicator_code": "MER-TL-01",
+        "title": "入院记录24小时内完成率"
+      },
+      "expect": {
+        "definition": "单位时间内，入院记录在患者入院24小时内完成的住院患者病历数占同期住院患者病历总数的比例。",
+        "numerator_text": "入院记录在患者入院24小时内完成的住院患者病历数",
+        "denominator_text": "同期住院患者病历总数",
+        "missing_formula": true
+      },
+      "basis": "《病案管理质量控制指标（2021年版）》（国卫办医函〔2021〕28号附件） 指标四",
+      "confidence": "official"
+    },
+    {
+      "case_id": "mrq-mer-tl-02",
+      "input": {
+        "indicator_code": "MER-TL-02",
+        "title": "手术记录24小时内完成率"
+      },
+      "expect": {
+        "definition": "单位时间内，手术记录在术后24小时内完成的住院患者病历数占同期住院手术患者病历总数的比例。",
+        "numerator_text": "手术记录在术后24小时内完成的住院患者病历数",
+        "denominator_text": "同期住院手术患者病历总数",
+        "missing_formula": true
+      },
+      "basis": "《病案管理质量控制指标（2021年版）》（国卫办医函〔2021〕28号附件） 指标五",
+      "confidence": "official"
+    },
+    {
+      "case_id": "mrq-mer-tl-03",
+      "input": {
+        "indicator_code": "MER-TL-03",
+        "title": "出院记录24小时内完成率"
+      },
+      "expect": {
+        "definition": "单位时间内，出院记录在患者出院后24小时内完成的病历数占同期出院患者病历总数的比例。",
+        "numerator_text": "出院记录在患者出院后24小时内完成的病历数",
+        "denominator_text": "同期出院患者病历总数",
+        "missing_formula": true
+      },
+      "basis": "《病案管理质量控制指标（2021年版）》（国卫办医函〔2021〕28号附件） 指标六",
+      "confidence": "official"
+    },
+    {
+      "case_id": "mrq-mer-tl-04",
+      "input": {
+        "indicator_code": "MER-TL-04",
+        "title": "病案首页24小时内完成率"
+      },
+      "expect": {
+        "definition": "单位时间内，病案首页在患者出院后24小时内完成的病历数占同期出院患者病历总数的比例。",
+        "numerator_text": "病案首页在患者出院后24小时内完成的病历数",
+        "denominator_text": "同期出院患者病历总数",
+        "missing_formula": true
+      },
+      "basis": "《病案管理质量控制指标（2021年版）》（国卫办医函〔2021〕28号附件） 指标七",
+      "confidence": "official"
+    },
+    {
+      "case_id": "mrq-mer-me-01",
+      "input": {
+        "indicator_code": "MER-ME-01",
+        "title": "CT/MRI检查记录符合率"
+      },
+      "expect": {
+        "definition": "单位时间内，CT/MRI检查医嘱、报告单、病程记录相对应的住院患者病历数占接受CT/MRI检查的住院患者病历总数的比例。",
+        "numerator_text": "CT/MRI检查医嘱、报告单、病程记录相对应的住院患者病历数",
+        "denominator_text": "接受CT/MRI检查的住院患者病历总数",
+        "missing_formula": true
+      },
+      "basis": "《病案管理质量控制指标（2021年版）》（国卫办医函〔2021〕28号附件） 指标八",
+      "confidence": "official"
+    },
+    {
+      "case_id": "mrq-denominator-reuse-01",
+      "input": {
+        "denominator_text": "同期出院患者病历总数"
+      },
+      "expect": {
+        "indicator_count": 8,
+        "indicator_nos": [
+          "指标六",
+          "指标七",
+          "指标十九",
+          "指标二十",
+          "指标二十一",
+          "指标二十二",
+          "指标二十五",
+          "指标二十七"
+        ]
+      },
+      "basis": "《病案管理质量控制指标（2021年版）》指标六、七、十九至二十二、二十五、二十七",
+      "confidence": "official"
+    },
+    {
+      "case_id": "mrq-denominator-reuse-02",
+      "input": {
+        "compare": [
+          "同期住院手术患者病历总数",
+          "同期出院手术患者病历总数"
+        ]
+      },
+      "expect": {
+        "distinct": true,
+        "counts": [
+          2,
+          2
+        ]
+      },
+      "basis": "《病案管理质量控制指标（2021年版）》指标五、十四、二十三、二十四",
+      "confidence": "official"
+    }
+  ],
+  "confidence": "official",
+  "note": "期望值取自官方文件定义文字；官方分式为图形排版，不编造公式"
+}
